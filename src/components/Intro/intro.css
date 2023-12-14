@@ -14,6 +14,7 @@
   z-index: -1;
   object-fit: cover;
   height: 100vh;
+  border: 2px solid #1e1e1e;
 }
 
 .introContent {
@@ -25,6 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hello {
@@ -38,7 +40,8 @@
 
 .introPara {
   font-size: medium;
-  font-weight: 100;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .btn {
@@ -54,4 +57,10 @@
   object-fit: cover;
   margin: 0 0.25rem;
   height: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .bg {
+    right: -20vw;
+  }
 }

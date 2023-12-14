@@ -1,0 +1,8 @@
+{
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.useInlineCompletions": true,
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.preferences": {},
+  "reactSnippets.settings.prettierEnabled": true
+}
