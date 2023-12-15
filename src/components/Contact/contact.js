@@ -7,7 +7,9 @@ import facebook from "../../assests/facebook.png";
 import facebookIcon from "../../assests/facebook-icon.png";
 import twitterIcon from "../../assests/twitter.png";
 import instagramIcon from "../../assests/instagram.png";
-import youtubeIcon from "../../assests/youtube.png";
+import LinkedInIcon from "../../assests/linkedin-icon.png";
+import GithubIcon from "../../assests/github-icon.png";
+
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -43,10 +45,34 @@ const Contact = () => {
           Some of the notable companies I have worked with includes
         </p>
         <div className="clientImgs">
-          <img src={walmart} alt="client" className="clientImg" />
-          <img src={adobe} alt="client" className="clientImg" />
-          <img src={microsoft} alt="client" className="clientImg" />
-          <img src={facebook} alt="client" className="clientImg" />
+          <a
+            href="https://www.walmart.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={walmart} alt="Walmart" className="clientImg" />
+          </a>
+          <a
+            href="https://www.adobe.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={adobe} alt="Adobe" className="clientImg" />
+          </a>
+          <a
+            href="https://www.microsoft.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={microsoft} alt="Microsoft" className="clientImg" />
+          </a>
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={facebook} alt="Facebook" className="clientImg" />
+          </a>
         </div>
       </div>
       <div id="contact">
@@ -88,10 +114,41 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img src={facebookIcon} alt="facebook" className="link" />
-            <img src={twitterIcon} alt="twitter" className="link" />
-            <img src={instagramIcon} alt="instagram" className="link" />
-            <img src={youtubeIcon} alt="youtube" className="link" />
+            <a
+              href="https://www.facebook.com/abhikurra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={facebookIcon} alt="facebook" className="link" />
+            </a>
+            <a
+              href="https://twitter.com/kurraomsairam1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={twitterIcon} alt="twitter" className="link" />
+            </a>
+            <a
+              href="https://www.instagram.com/abhi__kurra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={instagramIcon} alt="instagram" className="link" />
+            </a>
+            <a
+              href="https://github.com/omsairamkurra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={GithubIcon} alt="Github" className="link" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/omsairamkurra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={LinkedInIcon} alt="LinkedIn" className="linkedin" />
+            </a>
           </div>
         </form>
       </div>

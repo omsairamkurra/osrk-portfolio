@@ -20,6 +20,12 @@
   cursor: pointer;
 }
 
+.logoLink {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: none !important;
+}
+
 .desktopMenuListItem {
   margin: 1rem;
   cursor: pointer;

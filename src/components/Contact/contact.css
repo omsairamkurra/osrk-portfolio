@@ -27,14 +27,19 @@
   margin: 1rem 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .clientImg {
   object-fit: cover;
-  width: 23%;
+  width: 200px;
+  height: auto;
   max-width: 9rem;
-  margin: auto;
   padding: 0.25rem;
+}
+
+.clientLink {
+  margin-right: 20px;
 }
 
 #clients {
@@ -81,12 +86,25 @@
   cursor: pointer;
 }
 
+.submitBtn:hover {
+  background-color: chartreuse;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
 }
 
 .link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+  cursor: pointer;
+}
+
+.linkedin {
+  border-radius: 50%;
   object-fit: cover;
   height: 3rem;
   width: 3rem;

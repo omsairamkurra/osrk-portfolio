@@ -9,12 +9,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link
-        activeClass="active"
         to="intro"
         spy={true}
         smooth={true}
         offset={-100}
         duration={500}
+        className="logoLink"
       >
         <img src={logo} alt="logo" className="logo" />
       </Link>
