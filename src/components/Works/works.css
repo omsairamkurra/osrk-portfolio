@@ -48,8 +48,56 @@
   font-size: 1rem;
 }
 
+.workBtn:hover {
+  background-color: rgb(41, 54, 124);
+}
 @media screen and (max-width: 585px) {
   .worksImg {
     height: 50vh;
   }
+}
+
+.projects {
+  background-color: rgb(22, 22, 22);
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.project-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: cornsilk;
+  text-decoration: none;
+}
+
+.work-content {
+  list-style-type: none;
+  text-align: center;
+}
+
+.work-items {
+  margin: 1rem 0;
+  padding: 50px;
+}
+
+.work-h3 {
+  font-size: 30px;
+  color: bisque;
+}
+
+.work-h2 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.work-desc {
+  font-size: 15px;
+  color: rgb(111, 168, 236);
+}
+
+.projectImg {
+  height: 20vh;
+  width: 400px;
+  margin: 0.25rem;
 }
