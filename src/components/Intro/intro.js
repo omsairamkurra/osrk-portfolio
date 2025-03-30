@@ -3,7 +3,7 @@ import "./intro.css";
 import { Link } from "react-scroll";
 import hireme from "../../assests/hireme.png";
 import me from "../../assests/portfolio-bg.png";
-import pdf from "../../assests/OmSaiRamKurra3.pdf";
+import pdf from "../../assests/OmsairamKurra.pdf";
 
 const Intro = () => {
   const openPDF = () => {
